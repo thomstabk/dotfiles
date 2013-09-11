@@ -1,1 +1,10 @@
+## Additional customizations, taken mostly from: http://www.cyberciti.biz/tips/bash-aliases-mac-centos-linux-unix.html
 
+## Colorize the grep command output for ease of use (good for log files)##
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+
+## set some other defaults ##
+alias df='df -H'
+alias du='du -ch'
